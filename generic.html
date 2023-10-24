@@ -1,0 +1,302 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>About Me</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+
+		<!-- Font Awesome CSS -->
+		<link rel="stylesheet" href="assets/css/all.min.css" />
+
+
+		<style>
+			/* Custom CSS to style the rounded image */
+			.profile-image {
+				width: 300px; /* Set the desired width */
+				height: 300px; /* Set the desired height */
+				border-radius: 60%; /* Create a rounded shape */
+				overflow: hidden; /* Hide any overflowing content (if any) */
+				margin: 0 auto 20px;
+				position: relative;
+				top: 110px;
+			}
+			
+
+			.profile-image img {
+				width: 190%;
+				height: auto;
+				object-fit: cover; /* Maintain aspect ratio and cover the container */
+				position: relative;
+				left: -45%;
+			}
+			/* Styling for the icons */
+		ul.icons {
+			list-style: none;
+			padding: 0;
+			margin: 0;
+		}
+
+		ul.icons li {
+			display: inline-block;
+			margin-right: 10px;
+			vertical-align: middle;
+		}
+
+		ul.icons li:last-child {
+			margin-right: 0;
+		}
+
+		/* Styling for the Tableau icon */
+		.tableau-icon {
+			display: inline-block;
+			width: 20px;
+			height: 20px;
+			line-height: 21px;
+			border-radius: 50%;
+			overflow: hidden;
+			position: relative;
+			vertical-align: middle;
+			transition: box-shadow 0.3s ease;
+		}
+
+		.tableau-icon img {
+			width: 100%;
+			height: 100%;
+			object-fit: cover;
+		}
+
+		/* Hover effect for the Tableau icon */
+			.tableau-icon:hover {
+			background-color: #007BFF; /* Change this color to the desired blue shade */
+			}
+			.tableau-icon:hover {
+				box-shadow: 0 0 8px #007BFF; /* Change the box-shadow to create the desired glow effect */
+			}
+
+			.post ul {
+				font-size: 12px;
+				margin-top: 0;
+				margin-bottom: 10px;
+			}
+
+			.post ul li {
+				line-height: 1.5;
+				font-family: Arial, sans-serif; /* Apply the same font as Work Experiences item list */
+			}
+
+			/* Align the Work Experiences header to the left */
+			.post h3 {
+				text-align: left;
+				margin-top: 0;
+				margin-bottom: -5; /* Remove space just after Work Experiences header */
+			}
+
+			/* Align only the duration to the right */
+			.duration {
+				float: right;
+			}
+
+			/* Remove space between Work Experiences and content */
+			.post ul {
+				padding-right: 2;
+			}
+
+			/* Reduce space between Work Experiences */
+			.post ul ul {
+				margin-top: 5px;
+			}
+
+			/* Remove margin between header and Data Associate */
+			.post h3 + ul > li {
+				margin-top: 0;
+			}
+
+			/* Remove list-style for Work Experiences */
+			.work-experience-list {
+				list-style: none;
+				padding: 0;
+				margin: 0;
+			}
+
+			/* Remove margin between Work Experiences header and Data Associate */
+			.post h3 + ul > li > b {
+				display: block;
+				margin-bottom: 0;
+			}
+
+			/* Education boxes */
+			.education-box {
+				width: 60%; /* Set the desired width for the education box */
+				height: 170px; /* Set the desired height for the education box */
+				border: 1px solid #130f0f;
+				padding: 10px;
+				margin-bottom: 5px;
+				font-family: Arial, sans-serif;
+				font-size: 12px; /* Apply the same font as Work Experiences item list */
+			}
+			.education-details {
+				margin-bottom: 2px;
+			}
+
+			/* Align the duration to the right inside the education box */
+			.duration {
+				float: right;
+			}
+
+			/* Role */
+			.role {
+				margin-bottom: 20px;
+			}
+		</style>
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+		<div id="wrapper">
+			<div class="profile-image">
+				<img src="images/mall1.png" alt="Harsh Sinha Profile Image" />
+			</div>
+
+			<!-- Header -->
+			<header id="header">
+				<a href="index.html" class="logo">Harsh Kumar</a>
+			</header>
+
+			<!-- Nav -->
+			<nav id="nav">
+				<ul class="links">
+					<li><a href="index.html">Projects</a></li>
+					<li class="active"><a href="generic.html">About Me</a></li>
+				</ul>
+				<ul class="icons">
+					<li><a href="https://www.linkedin.com/in/kumarharsh32/" class="icon brands fa-linkedin"><span class="label">Linkedin</span></a></li>
+					<li><a href="https://public.tableau.com/app/profile/harsh.kumar1013" target="_blank" rel="noreferrer" class="tableau-icon"><img src="https://pbs.twimg.com/profile_images/1268207088683020288/d9agkn4h_400x400.jpg" alt="Tableau" /></a></li>
+					<li><a href="https://github.com/Harsh813203" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+					<li><a href="https://twitter.com/HarshSi60246030" class="icon brands fa-twitter"><span class="label">Tableau</span></a></li>
+				</ul>
+			</nav>
+
+			<!-- Main -->
+			<div id="main">
+
+				<!-- Post -->
+				<section class="post">
+					<header class="major">
+						<h1>This is Harsh</h1>
+						<p style="font-size: 0.9em">
+							Passionate about data analytics with a degree in computer application and business administration.
+							I have 2 yrs of working experiences in the Edtech Operations and Data Science team and I am looking for an opportunities where I can utilize my analytical, visualization skills to solve real business problems related to analyzing a huge volume of datasets to draw insights that can help with business decisions.
+						</p>
+					</header>
+					<!-- Work Experiences -->
+					<section class="post">
+						<header class="major">
+							<h3>WORK EXPERIENCES</h3>
+						</header>
+						<div class="role">
+							<ul class="work-experience-list">
+								<li>
+									<b>Data Associate</b><span class="duration">08/2022 – 04/2023</span><br />
+									Unacademy, Bangalore
+									<ul>
+										<li>Validated and annotated a wide range of unstructured data with 97% accuracy, including text, videos, images, and speech files.</li>
+										<li>Worked closely with data scientists to understand their data requirements and build SOPs accordingly. Involved in various brainstorming sessions for strategic projects.</li>
+										<li>On the doubt similarity project, performed exploratory data analysis on tagged dataset and provided a report which increased the IM (Instant Match) rate by 2%.</li>
+									</ul>
+								</li>
+								<li>
+									<b>Executive Business Operations</b><span class="duration">11/2021 – 08/2022</span><br />
+									Unacademy, Bangalore
+									<ul>
+										<li>Continued the tasks as same in the Swilfearn due to acquisition. Remotely worked in the night shift.</li>
+										<li>Provided on-call and mail assistance to teachers across CRM tools like HubSpot & Exotel with their concerns & issues.</li>
+										<li>Created 2000's plagiarism report for USA medical tests exam with 97% accuracy and maintained the sheet.</li>
+									</ul>
+								</li>
+								<li>
+									<b>Operations Executive</b><span class="duration">04/2021 – 11/2021</span><br />
+									Incassable Technologies Pvt Ltd (Swiflearn), Gurgaon
+									<ul>
+										<li>Completed & achieved the target of student report creation with 95% accuracy and delivered it to the concerned team.</li>
+										<li>Involved in bulk batch creation & Class creation process as per SOPs.</li>
+										<li>Written multiple SQL Queries and created views in the Metabase for the internal team's requirements.</li>
+										<li>Created 3000+ certificates on Figma for course completion and released communication to parents.</li>
+										<li>Worked on real-time escalations and provided necessary actions to the sales, support & Supply team.</li>
+									</ul>
+								</li>
+							</ul>
+						</div>
+					</section>
+
+					<!-- Education -->
+					<section class="post">
+						<header class="major">
+							<h3>EDUCATION</h3>
+						</header>
+						<div class="role">
+							<div class="education-box">
+								<p class="education-details"><b>Master’s in Business Administration (MBA in Data Science & Analytics)</b>&nbsp;&nbsp;  2021 – 2023</p>
+								<p class="education-details">Jain University, Bangalore</p>
+							</div>
+							<div class="education-box">
+								<p class="education-details"><b>Bachelor’s in Computer Application (BCA)</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 2018 – 2021</p>
+								<p class="education-details">University of Engineering & Management, Jaipur</p>
+							</div>
+						</div>
+					</section>
+				</section>
+			</div>
+
+			<!-- Footer -->
+			<footer id="footer">
+				<section>
+					<form method="post" action="#">
+						<div class="fields">
+							<div class="field">
+								<label for="name">Name</label>
+								<input type="text" name="name" id="name" />
+							</div>
+							<div class="field">
+								<label for="email">Email</label>
+								<input type="text" name="email" id="email" />
+							</div>
+							<div class="field">
+								<label for="message">Message</label>
+								<textarea name="message" id="message" rows="3"></textarea>
+							</div>
+						</div>
+						<ul class="actions">
+							<li><input type="submit" value="Send Message" /></li>
+						</ul>
+					</form>
+				</section>
+				<section class="split contact">
+					<section class="alt">
+						
+					</section>
+					<section>
+						<h3>Phone</h3>
+						<p><a href="#">9082986353</a></p>
+					</section>
+					<section>
+						<h3>Email</h3>
+						<p><a href="#">harshsinha496@gmail.com</a></p>
+					</section>
+					
+				</section>
+			</footer>
+		</div>
+
+		<!-- Scripts -->
+		<script src="assets/js/jquery.min.js"></script>
+		<script src="assets/js/jquery.scrollex.min.js"></script>
+		<script src="assets/js/jquery.scrolly.min.js"></script>
+		<script src="assets/js/browser.min.js"></script>
+		<script src="assets/js/breakpoints.min.js"></script>
+		<script src="assets/js/util.js"></script>
+		<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
